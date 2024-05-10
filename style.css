@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+ .container {
+    max-width: 350px;
+    background: rgb(30, 7, 53);
+    background: linear-gradient(0deg, rgb(9, 4, 65) 0%, rgb(237, 88, 232) 100%);
+    border-radius: 40px;
+    padding: 25px 35px;
+    border: 5px solid rgb(189, 164, 164);
+    margin: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+
+  .form .input:focus {
+    outline: none;
+    border-inline: 2px solid blue;
+  }
+  
+  .form .forgot-password {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+.book {
+  background-repeat: no-repeat;
+  width: 100%;
+  position: fixed;
+}
+
+button:hover {
+  background-color: red;
+
+}
+
